@@ -91,8 +91,9 @@ p {
 button {
     border: 1px solid #626262;
     position: absolute;
-    width: 165px;
-    height: 60px;
+    width: auto;
+    height:60px;
+    padding:0 48px;
     left: 508px;
     top: 2106px;
     font-family: "Playfair Display";
@@ -103,6 +104,11 @@ button {
     background: white;
     color: #626262;
 
+}
+
+button:hover {
+    border: 1px solid #000000;
+    background: #ececec;
 }
 
 footer {
