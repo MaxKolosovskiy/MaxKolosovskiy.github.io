@@ -9,8 +9,6 @@ header {
     font-size: 14px;
     display: inline-block;
     font-family: 'Playfair Display', serif;
-    font-style: normal;
-    font-weight: normal;
     line-height: 19px;
 
 }
@@ -25,7 +23,7 @@ header {
 }
 
 body {
-    position:relative;
+    position: relative;
     height: 2236px;
     margin: auto;
     color: #626262;
@@ -43,8 +41,6 @@ body {
     height: 250px;
     padding-left: 150px;
     padding-right: 65px;
-    padding-top: 0px;
-    padding-bottom: 0px;
 }
 
 .container {
@@ -52,14 +48,12 @@ body {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-
     background-color: #ffffff;
     box-shadow: 10px 10px 20px 0px hsla(0, 0%, 0%, 0.1);
 }
 
 h3 {
     font-family: "Ubuntu";
-    font-style: normal;
     font-weight: 300;
     font-size: 14px;
     line-height: 16px;
@@ -92,13 +86,11 @@ button {
     border: 1px solid #626262;
     position: absolute;
     width: auto;
-    height:60px;
-    padding:0 48px;
+    height: 60px;
+    padding: 0 48px;
     left: 508px;
     top: 2106px;
     font-family: "Playfair Display";
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 19px;
     background: white;
@@ -114,7 +106,6 @@ button:hover {
 footer {
     height: 1200px;
     display: inline-block;
-    float: right;
 }
 
 
