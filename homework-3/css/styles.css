@@ -1,7 +1,11 @@
-body {
+
+/* containers */
+.container_big {
     width: 1200px;
     margin: auto;
+    color: #ffffff;
 }
+
 
 /* navigation */
 .menu {
@@ -85,6 +89,7 @@ img {
     /* body.btn */
     background: #ffffff;
     padding: 20px 50px;
+    border: 1px solid #626262;
 }
 
 .btn_cont {
