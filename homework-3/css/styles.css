@@ -1,0 +1,93 @@
+body {
+    width: 1200px;
+    margin: auto;
+}
+
+/* navigation */
+.menu {
+    margin-top: 70px;
+    margin-left: 250px;
+    margin-bottom: 88px;
+}
+
+.menu li {
+    margin-right: 100px;
+    display: inline-block;
+}
+
+.list {
+    text-decoration: none;
+    color: #7D7D7D;
+    font-family: 'Playfair Display';
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.list:hover {
+    color: #03A9F4;
+}
+
+
+/* cards */
+.cards {
+    margin-left: 150px;
+
+}
+
+.card {
+    display: inline-block;
+    width: 420px;
+}
+
+.card:nth-child(2n+1) {
+    margin-right: 65px;
+}
+
+img {
+    width: 420px;
+    height: 280px;
+}
+
+/* text */
+.text1 {
+    margin-top: 62px;
+    color: #B4AD9E;
+    font-family: 'Ubuntu';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.text2 {
+    margin-top: 32px;
+    color: #626262;
+    font-family: 'Playfair Display';
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.textpar {
+    margin-top: 40px;
+    margin-bottom: 130px;
+    color: #626262;
+    font-family: 'Playfair Display';
+    font-size: 14px;
+    line-height: 19px;
+}
+
+/* button */
+.btn {
+    /* text */
+    color: #626262;
+    font-size: 14px;
+    line-height: 19px;
+    font-family: Playfair Display;
+    /* body.btn */
+    background: #ffffff;
+    padding: 20px 50px;
+}
+
+.btn_cont {
+    width: 100%;
+    text-align: center;
+}
