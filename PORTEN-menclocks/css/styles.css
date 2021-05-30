@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display:wght@400;700&family=Turret+Road:wght@700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000;
+    width: 100%;
+    max-width: 1920px;
+    color: #ffffff;
+}
+
+
+/* header */
+.head-container {
+    width: 1903px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recvizit-text {
+    font-family: PT Sans;
+    font-size: 12px;
+    line-height: 16px;
+    color: #969696;
+    text-decoration: none;
+}
+
+.recvizits {
+    display: flex;
+    align-items: center;
+}
+
+.rec-img {
+    margin-right: 15px;
+    margin-left: 405px;
+}
+
+.log-in {
+    margin-right: 405px;
+}
+
+/* nav */
+.nav-container {
+    height: 80px;
+    background-color: #0F0F0F;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    height: 810px;
+    margin: 0;
+    padding: 0;
+    background: #0F0F0F url("../images/png/header-logo\ .png");
+    background-size: cover;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+
+.list a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #969696;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: PT Sans;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.gray-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gray-container:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F1F1F;
+    height: 80px;
+    width: 100%;
+}
+
+.gray-container:hover a {
+    color: #FFFFFF;
+}
+
+.nav-container {
+    padding-right: 390px;
+    padding-left: 405px;
+}
+
+.text-logo-nav {
+    text-transform: uppercase;
+    font-family: 'Turret Road', cursive;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* logo text */
+.center-logo {
+    margin: 160px auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 4px solid #FFFFFF;
+    box-sizing: border-box;
+    padding: 100px 70px;
+}
+
+.text-logo {
+    padding-top: 20px;
+    font-family: 'Turret Road', cursive;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 96px;
+    color: #ffffff;
+}
+
+.text-logo::after {
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: #ffffff;
+    display: block;
+    margin-top: -15px;
+}
+
+.secont-text {
+    font-family: PT Sans;
+    font-size: 22px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.par-text {
+    font-family: PT Sans;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.par-box {
+    width: 730px;
+    margin-top: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.new-colection {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 1040px;
+}
+
+.fashion-text {
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 100px;
+}
+
+.new-fashion {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.fashion-text::after {
+    content: '';
+    width: 120px;
+    height: 1px;
+    background-color: #fff;
+    display: block;
+    text-align: center;
+    margin: 50px auto 0;
+}
+
+.buy-slots {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.buy-img {
+    background-color: #191B1C;
+    padding: 50px 25px;
+    margin: 0 20px 0 0;
+}
+
+.buy-text {
+    margin: 25px 0 10px 0;
+    font-family: Playfair Display;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.second-buy-text {
+    font-family: Playfair Display;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #D0D0D0;
+}
+
+.second-img {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    background: #0F0F0F url(../images/png/second-img.png);
+    width: 880px;
+    height: 730px;
+}
+
+.new-colection-text {
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.new-colection-text::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    background-color: #ffffff;
+    display: block;
+    margin: 30px auto;
+}
+
+.new-colection-btn {
+    text-decoration: none;
+    font-family: PT Sans;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 12px 30px;
+    border: 1px solid #FFFFFF;
+    margin-bottom: 100px;
+}
+
+/* info-block */
+.info-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-block-img {
+    width: 880px;
+    height: 600px;
+    background: #0F0F0F url(../images/png/info-block-img.png);
+}
+
+.info-block-text {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.old-par {
+    width: 500px;
+    font-family: PT Sans;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.old-text {
+    margin-top: 100px;
+    font-family: Playfair Display;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.old-text::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    background-color: #ffffff;
+    display: block;
+    margin: 40px auto;
+}
+
+.old-btn {
+    margin: 60px auto 100px;
+}
+
+.buy-slots-second {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.buy-text-top {
+    margin-top: 120px;
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.buy-text-top::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    background-color: #ffffff;
+    display: block;
+    margin: 40px auto 80px;
+
+}
+
+.our-brands {
+    width: 100%;
+    height: 362px;
+    background: #0F0F0F;
+    padding-top: 60px;
+}
+
+.buy-text-buttom {
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.buy-text-buttom::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    background-color: #ffffff;
+    display: block;
+    margin: 40px auto 0;
+}
+
+.brands {
+    display: flex;
+    justify-content: center;
+}
+
+.brand {
+    margin: 40px 30px 80px 0;
+}
+
+.buttom-info-img {
+    background: #0F0F0F url(../images/png/Buttom-img.png);
+    width: 100%;
+    height: 400px;
+}
+
+.buttom-cards {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.buttom-card {
+    width: 350px;
+    margin-right: 40px;
+}
+
+.buttom-text {
+    font-family: Playfair Display;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.buttom-par {
+    font-family: PT Sans;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.last-line {
+    background: #0F0F0F;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-line-text {
+    font-family: PT Sans;
+    font-size: 12px;
+    line-height: 16px;
+    color: #D0D0D0;
+}
+
+.btn-text {
+    text-decoration: none;
+    font-family: PT Sans;
+    font-size: 14px;
+    line-height: 150%;
+    color: #D0D0D0;
+}
+
+.div-btn {
+    display:inline-block;
+    margin: 0 20px 20px 0;
+    padding: 10px 20px;
+    background-color: #000;
+}
+
+/* .inp-em {
+    background-color: #555555;
+} */
